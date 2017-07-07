@@ -1,4 +1,4 @@
-package com.apple.sampleretrofit.mvp.view;
+package com.apple.sampleretrofit.mvp1.view;
 
 /**
  * Created by apple on 17/6/1.

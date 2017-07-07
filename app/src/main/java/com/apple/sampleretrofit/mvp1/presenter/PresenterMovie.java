@@ -1,9 +1,9 @@
-package com.apple.sampleretrofit.mvp.presenter;
+package com.apple.sampleretrofit.mvp1.presenter;
 
-import com.apple.sampleretrofit.bean.Movie;
-import com.apple.sampleretrofit.bean.MovieResponse;
-import com.apple.sampleretrofit.mvp.view.ViewData;
-import com.apple.sampleretrofit.mvp.model.ModelMovie;
+import com.apple.sampleretrofit.retorfit1.bean.Movie;
+import com.apple.sampleretrofit.retorfit1.bean.MovieResponse;
+import com.apple.sampleretrofit.mvp1.view.ViewData;
+import com.apple.sampleretrofit.mvp1.model.ModelMovie;
 
 import java.util.List;
 

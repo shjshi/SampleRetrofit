@@ -1,7 +1,7 @@
-package com.apple.sampleretrofit.api;
+package com.apple.sampleretrofit.retorfit1.api;
 
 
-import com.apple.sampleretrofit.bean.BaseCallModel;
+import com.apple.sampleretrofit.retorfit1.bean.BaseCallModel;
 
 import retrofit2.Call;
 import retrofit2.Callback;

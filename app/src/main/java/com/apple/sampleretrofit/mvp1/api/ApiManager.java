@@ -1,8 +1,8 @@
-package com.apple.sampleretrofit.api;
+package com.apple.sampleretrofit.mvp1.api;
 
 
-import com.apple.sampleretrofit.bean.Movie;
-import com.apple.sampleretrofit.bean.MovieResponse;
+import com.apple.sampleretrofit.retorfit1.bean.Movie;
+import com.apple.sampleretrofit.retorfit1.bean.MovieResponse;
 
 import java.util.List;
 
@@ -31,6 +31,7 @@ public class ApiManager {
             .build();
 
     private static final ApiService apiManager = sRetrofit.create(ApiService.class);
+
 
     public static Call<MovieResponse<List<Movie>>> getMovies(int start, int end){
         return apiManager.getMovices(start,end);

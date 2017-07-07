@@ -1,4 +1,4 @@
-package com.apple.sampleretrofit.mvp.activity;
+package com.apple.sampleretrofit.mvp1.activity;
 
 import android.app.ListActivity;
 import android.os.Bundle;
@@ -7,10 +7,10 @@ import android.widget.ArrayAdapter;
 import android.widget.Toast;
 
 import com.apple.sampleretrofit.R;
-import com.apple.sampleretrofit.bean.Movie;
-import com.apple.sampleretrofit.bean.MovieResponse;
-import com.apple.sampleretrofit.mvp.presenter.PresenterMovie;
-import com.apple.sampleretrofit.mvp.view.ViewData;
+import com.apple.sampleretrofit.retorfit1.bean.Movie;
+import com.apple.sampleretrofit.retorfit1.bean.MovieResponse;
+import com.apple.sampleretrofit.mvp1.presenter.PresenterMovie;
+import com.apple.sampleretrofit.mvp1.view.ViewData;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.apple.sampleretrofit.bean;
+package com.apple.sampleretrofit.retorfit1.bean;
 
 /**
  * Created by apple on 17/7/6.

@@ -1,4 +1,4 @@
-package com.apple.sampleretrofit.activity;
+package com.apple.sampleretrofit.retorfit1.activity;
 
 import android.app.ListActivity;
 import android.os.Bundle;
@@ -6,10 +6,10 @@ import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
 
 import com.apple.sampleretrofit.R;
-import com.apple.sampleretrofit.api.ApiManager;
-import com.apple.sampleretrofit.api.HttpCallBack;
-import com.apple.sampleretrofit.bean.Movie;
-import com.apple.sampleretrofit.bean.MovieResponse;
+import com.apple.sampleretrofit.retorfit1.api.ApiManager;
+import com.apple.sampleretrofit.retorfit1.api.HttpCallBack;
+import com.apple.sampleretrofit.retorfit1.bean.Movie;
+import com.apple.sampleretrofit.retorfit1.bean.MovieResponse;
 
 import java.util.ArrayList;
 import java.util.List;

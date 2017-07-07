@@ -1,4 +1,4 @@
-package com.apple.sampleretrofit.mvp.presenter;
+package com.apple.sampleretrofit.mvp1.presenter;
 
 /**
  * Created by apple on 17/6/1.
