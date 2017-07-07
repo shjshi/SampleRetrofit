@@ -5,6 +5,7 @@ import com.apple.sampleretrofit.retorfit1.bean.Movie;
 import com.apple.sampleretrofit.retorfit1.bean.MovieResponse;
 
 import java.util.List;
+import java.util.Map;
 
 import retrofit2.Call;
 import retrofit2.Retrofit;
@@ -35,5 +36,7 @@ public class ApiManager {
     public static Call<MovieResponse<List<Movie>>> getMovies(int start, int end){
         return apiManager.getMovices(start,end);
     }
-
+    public static Call<MovieResponse<List<Movie>>> getMovies2(Map<String,String> map){
+        return apiManager.getMovices2(map);
+    }
 }
